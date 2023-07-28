@@ -1,12 +1,11 @@
 {
-  "homepage": "http://kavan7.github.io/portfolio",
+  "homepage": "http://kavan7.github.io/Portfolio",
   "name": "kavan",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "vite build && gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
