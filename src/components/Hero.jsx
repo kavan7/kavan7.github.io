@@ -32,7 +32,7 @@ const Hero = () => {
         
         </div>
       <div className="">
-      <span className={`${styles.sectionSubText} animated-nav`}><br />This website is still under development lol</span>
+      <span className={`${styles.sectionSubText} animated-nav`}><br />This website is still in its early stages of development lol</span>
          <h1 className={`${styles.heroHeadText} mt-12 text-[#fffff] `}>{text}</h1>
          <p className={`${styles.heroSubText}  text-gray-100 fade-in textShadowColor: '#ffffff',
       mt-16 ml-0 `}>I'm a Grade 11 student <br className="sm:block hidden " />with a keen interest in developing web applications,<br className="sm:block hidden" />integrating with machine learning and much more.</p>
