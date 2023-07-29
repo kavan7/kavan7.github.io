@@ -24,7 +24,7 @@ const Hero = () => {
 
   return (
     <section className="relative w-full h-screen mx-auto">
-      <motion.div variants={textVariant()} className={`${styles.paddingX} absolute inset-0 top-[120px] sm:top-[185px] max-w-7xl mx-0 flex flex-row items-start gap-3 sm:gap-10 `}>
+      <motion.div variants={textVariant()} className={`${styles.paddingX} absolute inset-0 top-[40px] sm:top-[40px] max-w-7xl mx-0 flex flex-row items-start gap-3 sm:gap-10 `}>
         <div className="flex flex-col justify-center items-center ml-0 mt-5">
           <div className="w-8 h-8 rounded-full bg-secondary ml-0 "/>
           <div className="w-1 sm:h-80 h-40 violet-gradient ml-0" />
@@ -32,8 +32,8 @@ const Hero = () => {
         
         </div>
       <div className="">
-      <span className={`${styles.sectionSubText} animated-nav`}><br />This website is still in its early stages of development lol</span>
-         <h1 className={`${styles.heroHeadText} mt-12 text-[#fffff] `}>{text}</h1>
+      <span className={`${styles.sectionSubText} animated-nav`}><br />This website is still in its early stages of development</span>
+         <h1 className={`${styles.heroHeadText} sm:mt-16 mt-4  text-[#fffff] `}>{text}</h1>
          <p className={`${styles.heroSubText}  text-gray-100 fade-in textShadowColor: '#ffffff',
       mt-16 ml-0 `}>I'm a Grade 11 student <br className="sm:block hidden " />with a keen interest in developing web applications,<br className="sm:block hidden" />integrating with machine learning and much more.</p>
         
@@ -56,13 +56,13 @@ const Hero = () => {
         }}>
          
         
-        <a href="#experience" className="font-black text-white lg:text-[180px] sm:text-[100px] xs:text-[150px] text-[140px] lg:leading-[198px] mt-2">
-        <svg data-accordion-icon class="w-16 h-10 rotate-180 shrink-0 " aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+        <a href="#experience" className="font-black text-white mt-2">
+        <svg data-accordion-icon class=" sm:block hidden w-16 h-10 rotate-180 shrink-0 " aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
         <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
       </svg>
         </a>
                 <a href="#experience" className={`mt-14 ${styles.heroHeadText}`}>
-        <svg data-accordion-icon class="w-16 h-10 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+        <svg data-accordion-icon class="sm:block hidden  w-16 h-10 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
         <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
       </svg>
         </a>
