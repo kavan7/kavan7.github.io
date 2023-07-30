@@ -67,12 +67,12 @@ const NikeLogo = styled.div`
   }
 `;
 
-export function HubbleCardDetails(props) {
+export function GuitarifyCardDetails(props) {
   return (
     <DetailsContainer>
       <SmallText></SmallText>
     
-        <MediumText>New renewable energy</MediumText>
+        <MediumText></MediumText>
        
     
     

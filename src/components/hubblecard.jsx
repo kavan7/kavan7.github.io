@@ -1,9 +1,13 @@
 import { motion, useMotionValue, useTransform } from "framer-motion";
-import React from "react";
+import {React, useState} from "react";
 import styled from "styled-components";
 import '../index.css'
+
  
-import { CardDetails } from './hubblecarddetails'
+import { HubbleCardDetails } from './hubblecarddetails'
+
+
+
 
 const CardWrapper = styled.div`
   width: 100%;
@@ -98,7 +102,15 @@ const Shoes = styled(motion.div)`
   }
 `;
 
+
+
+
+
+
 export function HubbleCard(props) {
+
+
+
   const x = useMotionValue(0);
   const y = useMotionValue(0);
   const rotateX = useTransform(y, [-100, 100], [30, -30]);
@@ -107,6 +119,7 @@ export function HubbleCard(props) {
   return (
    
     <CardWrapper>
+      
       <CardContainer
         style={{ x, y, rotateX, rotateY, z: 100 }}
         drag
@@ -128,12 +141,19 @@ export function HubbleCard(props) {
              
             </Shoes>
           </ShoesWrapper>
+          
           <NikeText>HUBBLE</NikeText>
         </TopContainer>
+       
         <BottomContainer>
-          <CardDetails />
+  
+          <HubbleCardDetails />
+       
         </BottomContainer>
+        
       </CardContainer>
+    
     </CardWrapper>
+
   );
 }

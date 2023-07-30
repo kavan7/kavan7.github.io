@@ -2,8 +2,9 @@ import { motion, useMotionValue, useTransform } from "framer-motion";
 import React from "react";
 import styled from "styled-components";
 import '../index.css'
+import { guitar } from "../assets";
  
-import { CardDetails } from './hubblecarddetails'
+import { GuitarifyCardDetails } from './guitarifycarddetails'
 
 const CardWrapper = styled.div`
   width: 100%;
@@ -68,9 +69,9 @@ const BottomContainer = styled.div`
 const NikeText = styled.h1`
   color: #fff;
   text-transform: uppercase;
-  margin: 0;
-  z-index: 10;
-  font-size: 76px;
+  margin-bottom: 3;
+  z-index:1000;
+  font-size: 50px;
   font-weight: 900;
 `;
 
@@ -106,33 +107,40 @@ export function GuitarifyCard(props) {
 
   return (
     <CardWrapper>
-      <CardContainer
-        style={{ x, y, rotateX, rotateY, z: 100 }}
-        drag
-        dragElastic={0.2}
-        dragConstraints={{ top: 0, left: 0, right: 0, bottom: 0 }}
-        whileHover={{ cursor: "grabbing" }}
-      >
-        <TopContainer>
-          <CircleWrapper>
-            <Circle />
-          </CircleWrapper>
-          <ShoesWrapper>
-            <Shoes
-              style={{ x, y, rotateX, rotateY, rotate: "-25deg", z: 100000 }}
-              drag
-              dragElastic={1.22}
-              whileHover={{ cursor: "grabbing" }}
-            >
-             
-            </Shoes>
-          </ShoesWrapper>
-          <NikeText>HUBBLE</NikeText>
-        </TopContainer>
-        <BottomContainer>
-          <CardDetails />
-        </BottomContainer>
-      </CardContainer>
-    </CardWrapper>
+      
+    <CardContainer
+      style={{ x, y, rotateX, rotateY, z: 100 }}
+      drag
+      dragElastic={0.2}
+      dragConstraints={{ top: 0, left: 0, right: 0, bottom: 0 }}
+      whileHover={{ cursor: "grabbing" }}
+    >
+      <TopContainer>
+        <CircleWrapper>
+          <Circle />
+        </CircleWrapper>
+
+        
+        <NikeText>Guitarify</NikeText>
+      </TopContainer>
+      <ShoesWrapper>
+        <Shoes
+            style={{ x, y, rotateX, rotateY, rotate: "-25deg", z: 100000 }}
+            drag
+            dragElastic={1.22}
+            whileHover={{ cursor: "grabbing" }}
+          >
+           <img src={guitar} />
+          </Shoes>
+        </ShoesWrapper>
+      <BottomContainer>
+
+        <GuitarifyCardDetails />
+     
+      </BottomContainer>
+      
+    </CardContainer>
+  
+  </CardWrapper>
   );
 }
