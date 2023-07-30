@@ -18,7 +18,6 @@ const MediumText = styled.span`
   color: #fff;
   font-weight: 800;
   text-transform: uppercase;
-  z-index: 1000
 `;
 
 const SmallText = styled.span`
@@ -52,6 +51,7 @@ const BuyButton = styled.button`
     background-color: transparent;
     color: #fff;
     border: 3px solid #97b69d;
+    z-index: 10000;
   }
 `;
 
@@ -68,12 +68,12 @@ const NikeLogo = styled.div`
   }
 `;
 
-export function HubbleCardDetails(props) {
+export function LibreCardDetails(props) {
   return (
     <DetailsContainer>
       <SmallText></SmallText>
     
-        <MediumText>New renewable energy</MediumText>
+        <MediumText></MediumText>
        
     
     

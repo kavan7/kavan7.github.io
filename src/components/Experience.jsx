@@ -10,6 +10,7 @@ import styled from "styled-components";
 
 import '../index.css'
 import { GuitarifyCard } from "./guitarifycard";
+import { LibreCard } from "./librecard";
 
 
 
@@ -64,13 +65,19 @@ const Experience = () => {
       <motion.h2 variants={fadeIn("", "",0.1, 0.5)} className={`${styles.sectionSubText} gap-10 mt-10 animated-sub`}>
       Projects
     </motion.h2>  
-    
-    <div className="mt-5">
+
+
+
+   <div className="mt-5">
      <HubbleCard />   
-    </div>
+     </div>
     <div className="mt-12">
      <GuitarifyCard />   
     </div>
+    <div className="mt-12">
+     <LibreCard />   
+    </div>
+    
 
 
 

@@ -51,6 +51,7 @@ const BuyButton = styled.button`
     background-color: transparent;
     color: #fff;
     border: 3px solid #97b69d;
+    z-index: 10000;
   }
 `;
 

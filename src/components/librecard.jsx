@@ -1,13 +1,10 @@
 import { motion, useMotionValue, useTransform } from "framer-motion";
-import {React, useState} from "react";
+import React from "react";
 import styled from "styled-components";
 import '../index.css'
-
- import { earth } from "../assets";
-import { HubbleCardDetails } from './hubblecarddetails'
-
-
-
+import { libre } from "../assets";
+ 
+import { LibreCardDetails } from './librecarddetails'
 
 const CardWrapper = styled.div`
   width: 100%;
@@ -72,15 +69,15 @@ const BottomContainer = styled.div`
 const NikeText = styled.h1`
   color: #fff;
   text-transform: uppercase;
-  margin: 0;
-  z-index: 1000;
-  font-size: 76px;
+  margin-bottom: 3;
+  z-index:1000;
+  font-size: 50px;
   font-weight: 900;
 `;
 
 const ShoesWrapper = styled.div`
-  width: 80%;
-  height: 40%;
+  width: 100%;
+  height: 100%;
   position: absolute;
   display: flex;
   align-items: center;
@@ -90,7 +87,7 @@ const ShoesWrapper = styled.div`
 const Shoes = styled(motion.div)`
   width: auto;
   height: 190px;
-  z-index: 1000;
+  z-index: 99;
   user-select: none;
   margin-right: 3em;
   margin-top: 4em;
@@ -102,58 +99,49 @@ const Shoes = styled(motion.div)`
   }
 `;
 
-
-
-
-
-
-export function HubbleCard(props) {
-
-
-
+export function LibreCard(props) {
   const x = useMotionValue(0);
   const y = useMotionValue(0);
   const rotateX = useTransform(y, [-100, 100], [30, -30]);
   const rotateY = useTransform(x, [-100, 100], [-30, 30]);
 
   return (
-   
     <CardWrapper>
       
-      <CardContainer
-        style={{ x, y, rotateX, rotateY, z: 100 }}
-        drag
-        dragElastic={0.2}
-        dragConstraints={{ top: 0, left: 0, right: 0, bottom: 0 }}
-        whileHover={{ cursor: "grabbing" }}
-      >
-        <TopContainer>
-          <CircleWrapper>
-            <Circle />
-          </CircleWrapper>
-          <ShoesWrapper>
-            <Shoes
-              style={{ x, y, rotateX, rotateY, rotate: "-25deg", z: 100000 }}
-              drag
-              dragElastic={1.22}
-              whileHover={{ cursor: "grabbing" }}
-            >
-             <img src={earth} />
-            </Shoes>
-          </ShoesWrapper>
-          
-          <NikeText>HUBBLE</NikeText>
-        </TopContainer>
-       
-        <BottomContainer>
-  
-          <HubbleCardDetails />
-       
-        </BottomContainer>
-        
-      </CardContainer>
-    
-    </CardWrapper>
+    <CardContainer
+      style={{ x, y, rotateX, rotateY, z: 100 }}
+      drag
+      dragElastic={0.2}
+      dragConstraints={{ top: 0, left: 0, right: 0, bottom: 0 }}
+      whileHover={{ cursor: "grabbing" }}
+    >
+      <TopContainer>
+        <CircleWrapper>
+          <Circle />
+        </CircleWrapper>
 
+        
+        <NikeText>Libre</NikeText>
+      </TopContainer>
+      
+      <ShoesWrapper>
+        <Shoes
+            style={{ x, y, rotateX, rotateY, rotate: "deg", z: 0 }}
+            drag
+            dragElastic={1.22}
+            whileHover={{ cursor: "grabbing" }}
+          >
+           <img src={libre} />
+          </Shoes>
+        </ShoesWrapper>
+      <BottomContainer>
+
+        <LibreCardDetails />
+     
+      </BottomContainer>
+      
+    </CardContainer>
+  
+  </CardWrapper>
   );
 }

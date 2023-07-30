@@ -39,8 +39,7 @@ const Hero = () => {
          <h1 className={`${styles.heroHeadText} sm:mt-16 mt-4  text-[#fffff] `}>{text}</h1>
          <p className={`${styles.heroSubText}  text-gray-100 fade-in textShadowColor: '#ffffff',
       mt-16 ml-0 `}>I'm a Grade 11 student <br className="sm:block hidden " />with a keen interest in developing web applications,<br className="sm:block hidden" />integrating with machine learning and much more.<br  /></p>
-          <p className={`${styles.sectionSubText} sm:block hidden sm:mt-2 mt-10`}> I am currently working on multiple projects alongside this personal portfolio to display my skills and experience.</p>
-          
+         
       </div>
     
       
