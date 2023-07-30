@@ -23,7 +23,7 @@ const Hero = () => {
 
 
   return (
-    <section className="relative w-full h-screen mx-auto">
+    <section className="relative w-full h-[480px] sm:h-[650px] mx-auto">
       <motion.div variants={textVariant()} className={`${styles.paddingX} absolute inset-0 top-[40px] sm:top-[40px] max-w-7xl mx-0 flex flex-row items-start gap-3 sm:gap-10 `}>
         <div className="flex flex-col justify-center items-center ml-0 mt-5">
           <div className="w-8 h-8 rounded-full bg-secondary ml-0 "/>
@@ -35,8 +35,8 @@ const Hero = () => {
       <span className={`${styles.sectionSubText} animated-nav`}><br />This website is still in its early stages of development</span>
          <h1 className={`${styles.heroHeadText} sm:mt-16 mt-4  text-[#fffff] `}>{text}</h1>
          <p className={`${styles.heroSubText}  text-gray-100 fade-in textShadowColor: '#ffffff',
-      mt-16 ml-0 `}>I'm a Grade 11 student <br className="sm:block hidden " />with a keen interest in developing web applications,<br className="sm:block hidden" />integrating with machine learning and much more.</p>
-        
+      mt-16 ml-0 `}>I'm a Grade 11 student <br className="sm:block hidden " />with a keen interest in developing web applications,<br className="sm:block hidden" />integrating with machine learning and much more.<br  /></p>
+          <p className={`${styles.sectionSubText} sm:block hidden sm:mt-2 mt-10`}> I am currently working on multiple projects alongside this personal portfolio to display my skills and experience.</p>
           
       </div>
     
@@ -44,7 +44,7 @@ const Hero = () => {
 
       </motion.div>
       
-      <div className="absolute xs:bottom-10 bottom-32 w-full mb-16 flex justify-center ">
+      <div className="absolute xs:bottom-2 xs:top-39 bottom-32 w-full flex justify-center ">
         <motion.div
         animate={{
           y: [-40,-90, -40]
@@ -53,16 +53,16 @@ const Hero = () => {
           duration: 1.5, 
           repeat : Infinity,
           repeatType: LoopPingPong
-        }}>
+        }} >
          
         
-        <a href="#experience" className="font-black text-white mt-2">
-        <svg data-accordion-icon class=" sm:block hidden w-16 h-10 rotate-180 shrink-0 " aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+        <a href="#experience" className="font-black text-white mt-24">
+        <svg data-accordion-icon class=" sm:block hidden w-10 rotate-180 shrink-0 " aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
         <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
       </svg>
         </a>
-                <a href="#experience" className={`mt-14 ${styles.heroHeadText}`}>
-        <svg data-accordion-icon class="sm:block hidden  w-16 h-10 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                <a href="#experience" className="">
+        <svg data-accordion-icon class="sm:block hidden  w-10  rotate-180 shrink-53" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
         <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
       </svg>
         </a>

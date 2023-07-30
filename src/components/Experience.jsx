@@ -48,7 +48,7 @@ const Experience = () => {
     <motion.div variants={textVariant()}>
       
       <h2 className={`${styles.sectionHeadText}  animated `}>Portfolio.</h2>
-      <motion.h2 variants={fadeIn("", "",0.1, 1)} className={`${styles.sectionSubText} gap-10 mt-10 animated-sub`}>
+      <motion.h2 variants={fadeIn("", "",0.1, 0.5)} className={`${styles.sectionSubText} gap-10 mt-10 animated-sub`}>
       Projects
     </motion.h2>  
   
