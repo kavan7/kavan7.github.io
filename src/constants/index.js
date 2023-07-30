@@ -126,21 +126,14 @@ const experiences = [
 
   },
   {
-    title: "Etobicoke General Hospital",
+    title: "Dementia Society",
     company_name: "Volunteer",
     icon: tesla,
     iconBg: "#496944",
-    date: "Jan 2022 - Present",
+    date: "May 2023 - Present",
 
   },
-  {
-    title: "UHN Hospital",
-    company_name: "Volunteer",
-    icon: shopify,
-    iconBg: "#ccd9c7",
-    date: "July 2023 - Present",
 
-  },
   {
     title: "Etobicoke Basketball Association",
     company_name: "Assistant Coach ",
