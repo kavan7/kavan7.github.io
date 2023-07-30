@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { motion } from 'framer-motion';
 import { styles } from '../styles';
 import '../index.css';
-
+import { Link } from "react-router-dom";
 import { SectionWrapper } from "../hoc";
 import { textVariant } from "../utils/motion";
 
@@ -12,6 +12,9 @@ const Hero = () => {
   const [fullText, setFullText] = useState("Hi, welcome.");
   const [index, setIndex] = useState(0);
 
+  const [active, setActive] = useState('');
+  const [toggle, setToggle] = useState(false);
+  
   useEffect(() => {
     if (index < fullText.length) {  
       setTimeout(() => {
@@ -54,18 +57,31 @@ const Hero = () => {
           repeat : Infinity,
           repeatType: LoopPingPong
         }} >
-         
-        
-    
-        <svg data-accordion-icon class=" sm:block hidden w-10 rotate-180 shrink-0 " aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+          <Link
+            to="/"
+            className="flex items-center gap-2"
+            onClick={() => {
+              setActive("");
+              window.scrollTo(0,800);
+            }}>          
+                 
+            <svg data-accordion-icon class=" sm:block hidden w-10 rotate-180 shrink-0 " aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
         <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
       </svg>
-        
-                
+      </Link>
+      <Link
+            to="/"
+            className="flex items-center gap-2"
+            onClick={() => {
+              setActive("");
+              window.scrollTo(0,800);
+            }}>    
         <svg data-accordion-icon class="sm:block hidden  w-10  rotate-180 shrink-53" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
         <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
       </svg>
+      </Link>
       
+        
         </motion.div>
         </div>
 
