@@ -71,7 +71,7 @@ const NikeText = styled.h1`
   text-transform: uppercase;
   margin-bottom: 3;
   z-index:1000;
-  font-size: 50px;
+  font-size: 56px;
   font-weight: 900;
 `;
 

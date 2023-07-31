@@ -71,17 +71,18 @@ const NikeText = styled.h1`
   text-transform: uppercase;
   margin-bottom: 3;
   z-index:1000;
-  font-size: 50px;
+  font-size: 80px;
   font-weight: 900;
 `;
 
 const ShoesWrapper = styled.div`
-  width: 100%;
-  height: 100%;
+  width: 110%; 
+  height: 110%;
   position: absolute;
   display: flex;
   align-items: center;
   justify-content: center;
+  z-index: 0;
 `;
 
 const Shoes = styled(motion.div)`
@@ -130,8 +131,9 @@ export function LibreCard(props) {
             drag
             dragElastic={1.22}
             whileHover={{ cursor: "grabbing" }}
+            
           >
-           <img src={libre} />
+           <img src={libre} className="justify-center mb-12" />
           </Shoes>
         </ShoesWrapper>
       <BottomContainer>

@@ -6,7 +6,7 @@ import styled from "styled-components";
 
 const DetailsContainer = styled.div`
   width: 100%;
-  height: 100%;
+  height: 30%;
   display: flex;
   flex-direction: column;
   padding: 2.5em 6px 0 6px;
@@ -46,6 +46,7 @@ const BuyButton = styled.button`
   cursor: pointer;
   transition: all 290ms ease-in-out;
   border-radius: 8px;
+  z-index: 100000;
 
   &:hover {
     background-color: transparent;
