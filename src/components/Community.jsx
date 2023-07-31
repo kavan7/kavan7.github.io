@@ -52,4 +52,5 @@ const Community = () => {
     </>
   );
 };
+
 export default SectionWrapper(Community, "community");

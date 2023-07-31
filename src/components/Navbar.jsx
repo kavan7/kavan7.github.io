@@ -31,12 +31,12 @@ const Navbar = () => {
             <ul class="flex flex-row font-medium mt-4 space-x-5 mb-3 sm:mb-0 rounded-lg bg-white md:flex-row md:space-x-8 space-y-0 md:mt-0 md:border-0 md:bg-transparent dark:bg-transparent md:dark:bg-transparent dark:border-gray-700">
               
             <li>
-  <a href="https://www.linkedin.com/in/kavanabeyratne/" className="">
+  <a href="https://www.linkedin.com/in/kavanabeyratne/" target="_blank" className="">
     <img src={linkedinLogo} height="500px" width="50px" alt="LinkedIn" />
   </a>
 </li>
 <li>
-  <a href="https://github.com/kavan7" className="">
+  <a href="https://github.com/kavan7" target="_blank"  className="">
     <img src={githubLogo} height="50px" width="50px" alt="GitHub" />
   </a>
 </li>
