@@ -39,7 +39,7 @@ const Community = () => {
           Volunteering
         </p>
 
-        <div className="mt-18 flex flex-col mt-20 flex flex-wrap gap-10 shadow shadow-card rounded-[70px]">
+        <div className="mt-18 flex flex-col mt-20 flex flex-wrap gap-10 shadow shadow-card sm:rounded-[70px] rounded-[30px]">
           <VerticalTimeline>
            
               {experiences.map((experience, index) => (
