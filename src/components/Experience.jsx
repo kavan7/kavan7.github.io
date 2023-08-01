@@ -62,6 +62,23 @@ const Experience = () => {
     <motion.div variants={textVariant()}>
       
       <h2 className={`${styles.sectionHeadText}  animated `}>Portfolio.</h2>
+      <motion.div variants={textVariant()}>
+    <motion.h2 variants={fadeIn("", "", 0.1, 0.5)} className={`${styles.sectionSubText} animated-sub gap-10 mt-4`}>
+    Courses
+
+
+
+    </motion.h2>
+
+    <div className="mt-20 flex flex-wrap gap-10">
+      {services.map((service, index) => (
+        <ServiceCard key={service.title} index={1} {...service} />
+      ))}
+
+
+    </div>
+    </motion.div>
+   
       <motion.h2 variants={fadeIn("", "",0.1, 0.5)} className={`${styles.sectionSubText} gap-10 mt-10 animated-sub`}>
       Projects
     </motion.h2>  
@@ -83,23 +100,8 @@ const Experience = () => {
 
     
     </motion.div>
- 
-    <motion.h2 variants={fadeIn("", "", 0.1, 1)} className={`${styles.sectionSubText} animated-sub gap-10 mt-4`}>
-    Courses
 
 
-
-    </motion.h2>
-
-    <div className="mt-20 flex flex-wrap gap-10">
-      {services.map((service, index) => (
-        <ServiceCard key={service.title} index={1} {...service} />
-      ))}
-
-
-    </div>
-     
-   
  
 
     </>
