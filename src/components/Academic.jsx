@@ -25,7 +25,7 @@ const Academic = () => {
 <div class="w-full max-w-screen-2xl mx-auto]">
             
  <motion.p variants={fadeIn("", "", 0.1, 1)}
-       className="mt-3 text-white rounded-3xl ml-8 mt-8 mb-10 mr-8 text-[20px] max-w-3xl  ">
+       className="mt-3 text-white  rounded-3xl ml-8 mt-8 mb-10 mr-8 text-[20px] max-w-3xl animated ">
          I am actively involved in various clubs, each offering unique experiences.
          In Band, I explore music creatively. Hosa enhances my knowledge in healthcare,
            while Deca nurtures my business skills. As part of SAC, I contribute to school events. 
