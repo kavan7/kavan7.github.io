@@ -47,6 +47,7 @@ const Circle = styled.div`
   top: 0.5em;
   right: 15em;
   z-index: 5;
+  md-z-index: 5;
   background-color: #97b69d;
   border-radius: 50%;
   bg: hero-pattern;

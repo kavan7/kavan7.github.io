@@ -28,7 +28,7 @@ const Navbar = () => {
 
 
             </Link>
-            <ul class="flex flex-row font-medium mt-4 space-x-5 mb-3 sm:mb-0 rounded-lg bg-white md:flex-row md:space-x-8 space-y-0 md:mt-0 md:border-0 md:bg-transparent dark:bg-transparent md:dark:bg-transparent dark:border-gray-700">
+            <ul class="flex flex-row font-medium mt-4 space-x-5 mb-3 sm:mb-0 rounded-lg md:flex-row md:space-x-8 space-y-0 md:mt-0 md:border-0 md:bg-transparent dark:bg-transparent md:dark:bg-transparent dark:border-gray-700">
               
             <li>
   <a href="https://www.linkedin.com/in/kavanabeyratne/" target="_blank" className="">
