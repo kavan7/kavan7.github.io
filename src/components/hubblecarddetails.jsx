@@ -79,7 +79,7 @@ export function HubbleCardDetails(props) {
     
       <SpacedHorizontalContainer>
         <MediumText></MediumText>
-        <BuyButton>Learn More</BuyButton>
+        <BuyButton>Coming Soon</BuyButton>
       </SpacedHorizontalContainer>
       <NikeLogo>
        
