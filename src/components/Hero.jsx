@@ -37,8 +37,8 @@ const Hero = () => {
       <div className="">
       <span className={`${styles.sectionSubText} animated-nav`}><br />This website is still in its early stages of development</span>
          <h1 className={`${styles.heroHeadText} sm:mt-16 mt-4  text-[#fffff] `}>{text}</h1>
-         <p className={`${styles.heroSubText}  text-gray-100 fade-in textShadowColor: '#ffffff',
-      mt-16 ml-0 `}>I'm a Grade 11 student <br className="sm:block hidden " />with a keen interest in developing web applications,<br className="sm:block hidden" />integrating with machine learning and much more.<br  /></p>
+         <p className={`${styles.heroSubText}  text-secondary fade-in textShadowColor: '#ffffff',
+      mt-16 ml-0 `}>I'm a Grade 11 student <br className="sm:block hidden " />with a keen interest in developing web applications,<br className="sm:block hidden" />integrating with machine learning and more.<br  /></p>
          
       </div>
     
@@ -64,7 +64,7 @@ const Hero = () => {
               window.scrollTo(0,800);
             }}>          
                  
-            <svg data-accordion-icon class=" sm:block hidden w-10 rotate-180 shrink-0 " aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+            <svg data-accordion-icon class=" sm:block hidden w-16 rotate-180 shrink-0 " aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
         <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
       </svg>
       </Link>
@@ -75,7 +75,7 @@ const Hero = () => {
               setActive("");
               window.scrollTo(0,800);
             }}>    
-        <svg data-accordion-icon class="sm:block hidden  w-10  rotate-180 shrink-53" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+        <svg data-accordion-icon class="sm:block hidden  w-16  rotate-180 shrink-53" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
         <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
       </svg>
       </Link>

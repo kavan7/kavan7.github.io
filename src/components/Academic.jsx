@@ -19,7 +19,6 @@ const Academic = () => {
 
 
 <motion.div className={`${styles.heroSubText} bg-transparent rounded-3xl   mt-10 p-1`}>
-<Tilt>
 
 
 <motion.div class="shadow-card border  border-gray-200 rounded-3xl bg-transparent  shadow dark:bg-transparent dark:border-gray-700">
@@ -40,7 +39,7 @@ const Academic = () => {
        
  </motion.div>
  
- </Tilt>
+
           <p className={`${styles.sectionSubText} animated-sub mt-20 `}>
             Clubs
           </p> 
