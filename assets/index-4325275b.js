@@ -128,7 +128,7 @@ Error generating stack: `+o.message+`
     width: auto;
     height: 13px;
   }
-`;function tT(e){return w.jsxs(XP,{children:[w.jsx(ZP,{}),w.jsx(Ap,{children:"New renewable energy"}),w.jsxs(qP,{children:[w.jsx(Ap,{}),w.jsx(JP,{children:"Learn More"})]}),w.jsx(eT,{})]})}const nT=D.div`
+`;function tT(e){return w.jsxs(XP,{children:[w.jsx(ZP,{}),w.jsx(Ap,{children:"New renewable energy"}),w.jsxs(qP,{children:[w.jsx(Ap,{}),w.jsx(JP,{children:"Coming Soon"})]}),w.jsx(eT,{})]})}const nT=D.div`
   width: 100%;
   perspective: 2000;
   display: flex;
