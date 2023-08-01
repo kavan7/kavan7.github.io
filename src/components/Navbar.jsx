@@ -23,8 +23,10 @@ const Navbar = () => {
               window.scrollTo(0,0);
             }}>
             
-            <p className="text-white text-[59px] font-bold cursor-pointer animated-nav">
+            <p className="text-white text-[59px] sm:hidden block font-bold cursor-pointer animated-nav">
               K |  <span>A</span></p>
+              <p className="text-white text-[40px] sm:block hidden font-bold cursor-pointer animated-nav">
+              Kavan<br /><span>Abeyratne</span></p>
 
 
             </Link>
