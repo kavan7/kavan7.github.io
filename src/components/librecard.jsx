@@ -110,7 +110,7 @@ export function LibreCard(props) {
     <CardWrapper>
       
     <CardContainer
-      style={{ x, y, rotateX, rotateY, z: 100 }}
+      style={{ x, y, rotateX, rotateY, z: 0 }}
       drag
       dragElastic={0.2}
       dragConstraints={{ top: 0, left: 0, right: 0, bottom: 0 }}

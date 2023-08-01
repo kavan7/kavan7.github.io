@@ -125,7 +125,7 @@ export function GuitarifyCard(props) {
       </TopContainer>
       <ShoesWrapper>
         <Shoes
-            style={{ x, y, rotateX, rotateY, rotate: "-25deg", z: 100000 }}
+            style={{ x, y, rotateX, rotateY, rotate: "-25deg", z: 0 }}
             drag
             dragElastic={1.22}
             whileHover={{ cursor: "grabbing" }}

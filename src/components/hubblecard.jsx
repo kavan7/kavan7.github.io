@@ -31,6 +31,7 @@ const CardContainer = styled(motion.div)`
 `;
 
 const CircleWrapper = styled.div`
+  sm-position: absolute;
   position: absolute;
   top: 0;
   left: 0;
@@ -82,24 +83,29 @@ const NikeText = styled.h1`
 const ShoesWrapper = styled.div`
   width: 80%;
   height: 40%;
+  sm-position: absolute;
   position: absolute;
   display: flex;
   align-items: center;
   justify-content: center;
+  z-index: 0;
 `;
 
 const Shoes = styled(motion.div)`
+  position: absolute;
+  sm-position: absolute;
   width: auto;
   height: 190px;
-  z-index: 1000;
+  sm-z-index: 0;
   user-select: none;
   margin-right: 3em;
   margin-top: 4em;
 
   img {
+    z-index: 0;
     width: auto;
     height: 100%;
-    user-select: none;
+   
   }
 `;
 
@@ -124,8 +130,8 @@ export function HubbleCard(props) {
       <CardContainer
         style={{ x, y, rotateX, rotateY, z: 100 }}
         drag
-        dragElastic={0.2}
-        dragConstraints={{ top: 0, left: 0, right: 0, bottom: 0 }}
+        dragElastic={0.16}
+        dragConstraints={{ top: 1.5, left: 1.5, right: 1.5, bottom: 1.5 }}
         whileHover={{ cursor: "grabbing" }}
       >
         <TopContainer>
@@ -134,9 +140,9 @@ export function HubbleCard(props) {
           </CircleWrapper>
           <ShoesWrapper>
             <Shoes
-              style={{ x, y, rotateX, rotateY, rotate: "-25deg", z: 100000 }}
+              style={{ x, y, rotateX, rotateY, rotate: "-25deg", z: 0 }}
               drag
-              dragElastic={1.22}
+              dragElastic={0.12}
               whileHover={{ cursor: "grabbing" }}
             >
              <img src={earth} />

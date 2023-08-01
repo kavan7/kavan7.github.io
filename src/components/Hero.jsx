@@ -26,11 +26,11 @@ const Hero = () => {
 
 
   return (
-    <section className="relative w-full h-[480px] sm:h-[650px] mx-auto">
+    <section className="relative w-full h-[480px] sm:h-[650px] ">
       <motion.div variants={textVariant()} className={`${styles.paddingX} absolute inset-0 top-[40px] sm:top-[100px] max-w-7xl mx-0 flex flex-row items-start gap-3 sm:gap-10 `}>
-        <div className="flex flex-col justify-center items-center ml-0 mt-5">
-          <div className="w-8 h-8 rounded-full bg-secondary ml-0 "/>
-          <div className="w-1 sm:h-80 h-40 violet-gradient ml-0" />
+        <div className="flex flex-col  justify-center items-center ml-0 mt-5">
+          <div className="w-8 h-8  rounded-full bg-secondary ml-0 "/>
+          <div className="w-1 sm:h-80 h-80 violet-gradient" />
           
         
         </div>
@@ -38,7 +38,7 @@ const Hero = () => {
      
          <h1 className={`${styles.heroHeadText} sm:mt-16 mt-4  text-[#fffff] `}>{text}</h1>
          <p className={`${styles.heroSubText}  text-secondary fade-in textShadowColor: '#ffffff',
-      mt-16 ml-0 `}>I'm a Grade 11 student <br className="sm:block hidden " />with a keen interest in developing web applications,<br className="sm:block hidden" />integrating with machine learning and more.<br  /></p>
+      sm:mt-16 mt-6 ml-0 `}>I'm a Grade 11 student <br className="sm:block hidden " />with a keen interest in developing web applications,<br className="sm:block hidden" />integrating with machine learning and more.<br  /></p>
           <span className={`${styles.sectionSubText} animated-nav`}><br />This website is still in its early stages of development</span>
       </div>
     
