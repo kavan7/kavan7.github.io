@@ -1,0 +1,11 @@
+Model Information:
+* title:	Fender Squier Jazzmaster (Electric guitar)
+* source:	https://sketchfab.com/3d-models/fender-squier-jazzmaster-electric-guitar-5dba2fa3ce15468c893a554ca39a3d58
+* author:	abot86 (https://sketchfab.com/abot86)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Fender Squier Jazzmaster (Electric guitar)" (https://sketchfab.com/3d-models/fender-squier-jazzmaster-electric-guitar-5dba2fa3ce15468c893a554ca39a3d58) by abot86 (https://sketchfab.com/abot86) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
