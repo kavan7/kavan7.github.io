@@ -62,6 +62,7 @@ const NikeLogo = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+  z-index:-10000000;
 
   img {
     width: auto;
@@ -74,7 +75,7 @@ export function LibreCardDetails(props) {
     <DetailsContainer>
       <SmallText></SmallText>
     
-        <MediumText></MediumText>
+        <MediumText>Tracking blood sugar made easier</MediumText>
        
     
     

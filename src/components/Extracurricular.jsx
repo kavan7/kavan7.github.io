@@ -9,6 +9,7 @@ import { textVariant } from "../utils/motion";
 
 
 
+
   const Extracurricular = () => {
     return (
       <>
@@ -27,6 +28,7 @@ import { textVariant } from "../utils/motion";
         <motion.div variants={textVariant()}>
         <p className={`${styles.sectionSubText} animated-sub mt-10 indent-3`}>
             Music
+        
           </p> 
           </motion.div>
           <motion.div variants={textVariant()}>

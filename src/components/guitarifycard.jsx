@@ -14,8 +14,10 @@ const CardWrapper = styled.div`
   justify-content: center;
 `;
 
+
+
 const CardContainer = styled(motion.div)`
-  width: 300px;
+  width: 600px;
   height: 300px;
   display: flex;
   flex-direction: column;
@@ -24,30 +26,31 @@ const CardContainer = styled(motion.div)`
   background-color: #496944;
   color: #fff;
   position: relative;
-  cursor: hover;
+  cursor: pointer;
+  transition: width 0.2s; 
+
+ 
+  &:hover {
+    width: 1000px; /* Change the width on hover */
+  }
 `;
 
+
+
+
+
 const CircleWrapper = styled.div`
+  sm-position: absolute;
   position: absolute;
   top: 0;
-  left: 0;
-  min-width: 100%;
+  left: 100;
+  min-width: 30%;
   min-height: 100%;
-  overflow: hidden;
+  
   border-top-right-radius: 25px;
 `;
 
-const Circle = styled.div`
-  position: absolute;
-  width: 150px;
-  height: 150px;
-  top: 0.5em;
-  right: 15em;
-  z-index: 5;
-  background-color: #97b69d;
-  border-radius: 50%;
-  bg: hero-pattern;
-`;
+
 
 const TopContainer = styled.div`
   width: 100%;
@@ -69,33 +72,38 @@ const BottomContainer = styled.div`
 const NikeText = styled.h1`
   color: #fff;
   text-transform: uppercase;
-  margin-bottom: 3;
-  z-index:1000;
-  font-size: 56px;
+  margin: 0;
+  z-index: 1000;
+  font-size: 76px;
   font-weight: 900;
 `;
 
 const ShoesWrapper = styled.div`
   width: 100%;
-  height: 100%;
+  height: 80%;
+  sm-position: absolute;
   position: absolute;
   display: flex;
   align-items: center;
   justify-content: center;
+  z-index: -100000000;
 `;
 
 const Shoes = styled(motion.div)`
+  position: absolute;
+  sm-position: absolute;
   width: auto;
   height: 190px;
-  z-index: 99;
-  user-select: none;
+  sm-z-index: -100000000;
+ 
   margin-right: 3em;
   margin-top: 4em;
 
   img {
+    z-index: -1000000000;
     width: auto;
     height: 100%;
-    user-select: none;
+   
   }
 `;
 
@@ -117,7 +125,7 @@ export function GuitarifyCard(props) {
     >
       <TopContainer>
         <CircleWrapper>
-          <Circle />
+         
         </CircleWrapper>
 
         

@@ -73,7 +73,7 @@ export function GuitarifyCardDetails(props) {
     <DetailsContainer>
       <SmallText></SmallText>
     
-        <MediumText></MediumText>
+        <MediumText>Perfect for guitar/music lovers</MediumText>
        
     
     
