@@ -15,16 +15,20 @@ const Hobbies = () => {
   return (
      
     <div>
-      <div className="mb-16">
-      <HubbleCard /> 
-      </div>  
+          <div className="mb-16">
+      <LibreCard />   
+   </div>
+ 
       
       <div className="mb-16">
       <GuitarifyCard />   
     </div>
     <div className="mb-16">
-      <LibreCard />   
-   </div>
+      <HubbleCard /> 
+      </div>  
+      <motion.h2 variants={fadeIn("", "",0.1, 0.5)} className={`${styles.sectionSubText}  gap-10 mt-10 flex flex-wrap animated-sub`}>
+      Projects
+    </motion.h2>  
       </div>
   )
 }

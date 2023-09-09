@@ -73,7 +73,7 @@ export function HubbleCardDetails(props) {
     <DetailsContainer>
       <SmallText></SmallText>
     
-        <MediumText>New renewable energy</MediumText>
+        <MediumText>A new form of renewable energy</MediumText>
        
     
     

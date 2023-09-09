@@ -31,11 +31,12 @@ const CardContainer = styled(motion.div)`
   color: #fff;
   position: relative;
   cursor: pointer;
-  transition: width 0.2s; 
+  transition: width 0.2s, background-color 0.8s;
 
  
   &:hover {
-    width: 1000px; /* Change the width on hover */
+    width: 750px; /* Change the width on hover */
+    background-color: #264026;
   }
 `;
 
