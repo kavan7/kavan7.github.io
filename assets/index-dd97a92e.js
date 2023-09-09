@@ -259,7 +259,7 @@ Error generating stack: `+o.message+`
     width: auto;
     height: 13px;
   }
-`;function vT(e){return w.jsxs(pT,{children:[w.jsx(hT,{}),w.jsx(Lp,{children:"Perfect for guitar/music lovers"}),w.jsxs(mT,{children:[w.jsx(Lp,{}),w.jsx(gT,{children:"Learn More"})]}),w.jsx(yT,{})]})}const xT=O.div`
+`;function vT(e){return w.jsxs(pT,{children:[w.jsx(hT,{}),w.jsx(Lp,{children:"Perfect for guitar/music lovers"}),w.jsxs(mT,{children:[w.jsx(Lp,{}),w.jsx("a",{href:"https://www.linkedin.com/in/kavanabeyratne/details/projects/",target:"_blank",children:w.jsx(gT,{children:"Learn More"})})]}),w.jsx(yT,{})]})}const xT=O.div`
   width: 100%;
   perspective: 2000;
   display: flex;
@@ -391,7 +391,7 @@ Error generating stack: `+o.message+`
     width: auto;
     height: 13px;
   }
-`;function NT(e){return w.jsxs(RT,{children:[w.jsx(_T,{}),w.jsx(Mp,{children:"Tracking blood sugar made easier"}),w.jsxs(AT,{children:[w.jsx(Mp,{}),w.jsx(LT,{children:"Learn More"})]}),w.jsx(MT,{})]})}const VT=O.div`
+`;function NT(e){return w.jsxs(RT,{children:[w.jsx(_T,{}),w.jsx(Mp,{children:"Tracking blood sugar made easier"}),w.jsxs(AT,{children:[w.jsx(Mp,{}),w.jsx("a",{href:"https://www.linkedin.com/in/kavanabeyratne/details/projects/",target:"_blank",children:w.jsx(LT,{children:"Learn More"})})]}),w.jsx(MT,{})]})}const VT=O.div`
   height: 100%;
   width: 100%;
   perspective: 2000;
