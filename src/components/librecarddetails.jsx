@@ -81,7 +81,7 @@ export function LibreCardDetails(props) {
     
       <SpacedHorizontalContainer>
         <MediumText></MediumText>
-        <BuyButton>Learn More</BuyButton>
+        <a href="https://www.linkedin.com/in/kavanabeyratne/details/projects/" target="_blank"><BuyButton>Learn More</BuyButton></a>
       </SpacedHorizontalContainer>
       <NikeLogo>
        
