@@ -528,7 +528,7 @@ Error generating stack: `+o.message+`
     width: auto;
     height: 13px;
   }
-`;function n2(e){return v.jsxs(ZT,{children:[v.jsx(qT,{}),v.jsx(Np,{children:"Perfect for guitar/music lovers"}),v.jsxs(JT,{children:[v.jsx(Np,{}),v.jsx("a",{href:"https://braindle.kavanabeyratne.com",target:"_blank",children:v.jsx(e2,{children:"Learn More"})})]}),v.jsx(t2,{})]})}const r2=A.div`
+`;function n2(e){return v.jsxs(ZT,{children:[v.jsx(qT,{}),v.jsx(Np,{children:"Faster reading with your brain"}),v.jsxs(JT,{children:[v.jsx(Np,{}),v.jsx("a",{href:"https://braindle.kavanabeyratne.com",target:"_blank",children:v.jsx(e2,{children:"Learn More"})})]}),v.jsx(t2,{})]})}const r2=A.div`
   width: 100%;
   perspective: 2000;
   display: flex;
