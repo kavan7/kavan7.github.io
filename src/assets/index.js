@@ -29,8 +29,10 @@ import guitar from "./guitar.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import braindle from './braindle.png'
 
 export {
+  braindle,
   libre,
   earth,
   guitar,

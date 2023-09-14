@@ -22,10 +22,6 @@ const  App = () => {
       
    
  
-      <div className="relative z-0">
-       
-
-      </div>
 
     </div>
     </BrowserRouter>
