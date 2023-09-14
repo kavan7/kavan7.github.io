@@ -73,7 +73,7 @@ export function BraindleCardDetails(props) {
     <DetailsContainer>
       <SmallText></SmallText>
     
-        <MediumText>Perfect for guitar/music lovers</MediumText>
+        <MediumText>Faster reading with your brain</MediumText>
        
     
     
