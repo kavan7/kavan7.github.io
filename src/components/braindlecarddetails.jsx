@@ -73,7 +73,7 @@ export function BraindleCardDetails(props) {
     <DetailsContainer>
       <SmallText></SmallText>
     
-        <MediumText>Faster reading with your brain</MediumText>
+        <MediumText>Faster note taking with your brain</MediumText>
        
     
     
