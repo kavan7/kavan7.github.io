@@ -29,8 +29,7 @@ const Hero = () => {
     <section className="relative w-full h-[480px] sm:h-[650px] ">
       <motion.div variants={textVariant()} className={`${styles.paddingX} absolute inset-0 top-[40px] sm:top-[100px] max-w-7xl mx-0 flex flex-row items-start gap-3 sm:gap-10 `}>
         <div className="flex flex-col  justify-center items-center ml-0 mt-5">
-          <div className="w-8 h-8  rounded-full bg-secondary ml-0 "/>
-          <div className="w-1 sm:h-80 h-80 violet-gradient" />
+        
           
         
         </div>

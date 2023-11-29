@@ -7,9 +7,8 @@ import linkedinLogo from '../assets/linkedin.png';
 import githubLogo from '../assets/github.png'; 
 
 
-const Navbar = () => {
-  const [active, setActive] = useState('');
-  const [toggle, setToggle] = useState(false);
+const Navbar = ({ isDarkPattern, handleToggleClick }) => {
+
 
   return (
     <nav 
@@ -29,6 +28,7 @@ const Navbar = () => {
               Kavan<br /><span>Abeyratne</span></p>
 
 
+
             </Link>
             <ul class="flex flex-row font-medium mt-4 space-x-5 mb-3 sm:mb-0 rounded-lg md:flex-row md:space-x-8 space-y-0 md:mt-0 md:border-0 md:bg-transparent dark:bg-transparent md:dark:bg-transparent dark:border-gray-700">
               
@@ -41,7 +41,21 @@ const Navbar = () => {
   <a href="https://github.com/kavan7" target="_blank"  className="">
     <img src={githubLogo} height="50px" width="50px" alt="GitHub" />
   </a>
+  
 </li>
+<a>
+          <label className="relative mt-3 inline-flex items-center cursor-pointer">
+            <input
+              type="checkbox"
+              value=""
+              className="sr-only peer"
+              onChange={handleToggleClick}
+              checked={isDarkPattern}
+            />
+            <div className="w-11 h-6 bg-secondary peer-focus:outline-none rounded-full border-none peer dark:bg-gray-700 peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full peer-checked:after:border-none after:content-[''] after:absolute after:top-[2px] after:start-[2px] after:bg-white after:border-none after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-primary"></div>
+      
+          </label>
+        </a>
 
             </ul>
             </div>
