@@ -38,7 +38,7 @@ const Hero = () => {
          <h1 className={`${styles.heroHeadText} sm:mt-16 mt-4  text-[#fffff] `}>{text}</h1>
          <p className={`${styles.heroSubText}  text-secondary fade-in textShadowColor: '#ffffff',
       sm:mt-16 mt-6 ml-0 `}>I'm a Grade 11 student <br className="sm:block hidden " />with a keen interest in developing web applications, <br className="sm:block hidden" />integrating with machine learning and more.<br  /></p>
-          <span className={`${styles.sectionSubText} animated-nav`}><br />This website is still in its early stages of development</span>
+          
       </div>
     
       
