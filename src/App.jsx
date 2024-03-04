@@ -29,9 +29,9 @@ const App = () => {
 
         <Experience />
         <Hobbies />
-        <Academic />
+       
         <Community />
-        <Extracurricular />
+      
       </div>
     </BrowserRouter>
   );

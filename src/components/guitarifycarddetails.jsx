@@ -79,7 +79,7 @@ export function GuitarifyCardDetails(props) {
     
       <SpacedHorizontalContainer>
         <MediumText></MediumText>
-        <a href="https://www.linkedin.com/in/kavanabeyratne/details/projects/" target="_blank"><BuyButton>Learn More</BuyButton></a>
+        <a href="https://www.linkedin.com/in/kavanabeyratne/details/projects/" target="_blank"><BuyButton>Coming soon</BuyButton></a>
       </SpacedHorizontalContainer>
       <NikeLogo>
        
